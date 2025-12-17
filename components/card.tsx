@@ -15,10 +15,10 @@ export const Card = ({
         <div>
             <div className={`bg-${color} flex flex-col items-center jusstify-center`}>
                 <Image
-                    src={imgPath}
+                    src={imgPath || ""}
                     width={500}
                     height={500}
-                    alt="Picture of the author"
+                    alt={`image de ${title}`}
                 />
                 <h3>{title}</h3>
             </div>

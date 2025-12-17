@@ -40,8 +40,9 @@ export default function Page() {
 
                 <div>
                     {
-                        houses.map((item)=> {
+                        houses.map((item, key)=> {
                             return <Card
+                                key={key}
                                 title={item.title}
                                 imgPath={item.imgPath}
                                 color={item.color}
