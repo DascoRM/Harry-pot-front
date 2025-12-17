@@ -42,11 +42,11 @@ export default function Page() {
                     {
                         houses.map((item, key)=> {
                             return <Card
-                                key={key}
-                                title={item.title}
-                                imgPath={item.imgPath}
-                                color={item.color}
-                                />
+                                    key={key}
+                                    title={item.title}
+                                    imgPath={item.imgPath}
+                                    color={item.color}
+                                    />
                                 })
                     }
                 </div>
